@@ -1,0 +1,19 @@
+{
+  "name": "sw-starter",
+  "version": "0.0.1",
+  "description": "dead simple service worker example",
+  "main": "app.js",
+  "scripts": {
+    "test": "standard --verbose | snazzy",
+    "deploy": "surge -d https://sw-starter.surge.sh -p ./"
+  },
+  "author": {
+    "name" : "Yerko Palma", 
+    "email" : "yerko.palma@usach.cl"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "surge": "^0.18.0"
+  }
+}
